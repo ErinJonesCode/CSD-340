@@ -9,13 +9,39 @@ h1 {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    background-color: #fb6f92;
+    color: white;
+    border: 1px;
+    border-color: #D6A800;
+    padding: 10px;
 }
 h2 {
     font-weight: 500;
     text-align: left;
     padding-top: 15px;
+    background-color: #ff8fab;
+    color: white;
+    border: 1px;
+    border-color: #D6A800;
+    padding: 10px;
 }
-
+h3 {
+    font-weight: 300;
+    text-align: left;
+    color: white;
+    background-color: #ffb3c6;
+    border: 1px;
+    border-color: #D6A800;
+    padding: 10px;
+    
+}
+h4 {
+    background-color: #ffc2d1;
+    color: white;
+    border: 1px;
+    border-color: #D6A800;
+    padding: 10px;
+}
 address {
     text-align: center;
     font-weight: bold;
@@ -25,6 +51,7 @@ address {
 }
 a {
     text-decoration: none;
+    color: #8d9198;
 }
 a:visited {
     background-color: #D6A800;
@@ -39,3 +66,11 @@ a:hover {
 .intro { 
     text-indent: 2em;
   }
+  .container { 
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
+
+
