@@ -1,1 +1,108 @@
 
+body {
+    font-size: 16px;
+}
+div.books {
+  width: 45%;
+float: left;
+}
+
+div.learned{
+    width: 45%; 
+    float: right;
+}
+div.link{
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+    text-align: right;
+
+}
+li {
+    font-weight: 300px;
+    border-color: red;
+}
+ol {
+    font-weight: 300;
+    border: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    color: black;
+    border-color: red;
+
+}
+ul {
+    border: 1px;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 15px;
+    list-style-type: upper-roman;
+
+}
+
+
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+h1 {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px;
+    border-color: #D6A800;
+    padding: 10px;
+}
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+    border: 1px;
+    border-color: #D6A800;
+    padding: 10px;
+}
+h3 {
+    font-weight: 500;
+    text-align: left;
+    border: 1px;
+    border-color: red;
+
+    
+}
+h4 {
+
+    border: 1px;
+    border-color: #D6A800;
+    padding: 10px;
+}
+address {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+
+}
+a {
+    text-decoration: none;
+    color: #8d9198;
+}
+a:visited {
+    background-color: #D6A800;
+    text-transform: uppercase;
+}
+a:hover {
+    background-color: #D6A800;
+}
+.sentence { 
+    font-style: italic;
+}
+.intro { 
+    text-indent: 2em;
+  }
+  .container { 
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+  }
